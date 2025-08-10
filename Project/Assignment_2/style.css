@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0c0c0c;
+  color: #f0f0f0;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('background.jpg') center/cover no-repeat;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #111;
+  font-family: 'Bebas Neue', cursive;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.banner {
+  position: relative;
+  background: url('images/banner.jpg') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.banner-logo {
+  max-width: 300px;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.synopsis p {
+  line-height: 1.6;
+}
+
+.cast-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cast-card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+  width: 200px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.cast-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.cast-card p {
+  margin: 0;
+}
+
+.reviews .review-card {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.stars {
+  color: gold;
+  font-size: 1.2rem;
+}
+
+.watch ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.watch li {
+  background-color: #1a1a1a;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  margin-top: 2rem;
+}
+
+footer img {
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
