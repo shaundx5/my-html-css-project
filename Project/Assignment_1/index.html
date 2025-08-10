@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spice & Spoon — Restaurant</title>
+
+  <!-- Fonts & Icons (you can remove these CDNs if offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-xxx" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#top">Spice<span>&</span>Spoon</a>
+      <ul class="nav-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" aria-label="Welcome">
+      <div class="hero__content container">
+        <h1>Comfort food, crafted fresh. The <b>only</b> Franco-Italian restaurant in Bangalore.</h1>
+        <p>Seasonal mains, wood-fired starters, and classic desserts. Dine in or order takeaway.</p>
+        <a class="btn" href="#menu">See the Menu</a>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu section" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <h2 id="menu-title">Our Menu</h2>
+
+        <div class="menu-category">
+          <h3>Starters</h3>
+          <div class="card-grid">
+            <article class="card">
+              <img src="lt1.png" alt="Tomato Bruschetta" loading="lazy" />
+              <div class="card-body">
+                <h4>Tomato Bruschetta</h4>
+                <p>Grilled bread topped with marinated tomatoes, garlic, and basil.</p>
+                <span class="price">₹150</span>
+              </div>
+            </article>
+            <article class="card">
+              <img src="lt8.png" alt="Risotto" loading="lazy" />
+              <div class="card-body">
+                <h4>Risotto</h4>
+                <p>Creamy Arborio rice cooked with seasonal vegetables and Parmesan cheese.</p>
+                <span class="price">₹100</span>
+              </div>
+            </article>
+
+
+          </div>
+        </div>
+
+        <div class="menu-category">
+          <h3>Mains</h3>
+          <div class="card-grid">
+            <article class="card">
+              <img src="/lt2.png" alt="The Ratatouille" loading="lazy" />
+              <div class="card-body">
+                <h4>Classic Ratatouille</h4>
+                <p>Stew of stewed vegetables (eggplant, zucchini, bell peppers, tomatoes, onions,
+                  and garlic), simmered in olive oil with herbs (basil and thyme).</p>
+                <span class="price">₹250</span>
+              </div>
+            </article>
+            <article class="card">
+              <img src="lt3.png" alt="Bouef Bourguignon" loading="lazy" />
+              <div class="card-body">
+                <h4>Bouef Bourguignon</h4>
+                <p>Beef braised in red wine, with carrots, onions, and mushrooms.</p>
+                <span class="price">₹300</span>
+              </div>
+            </article>
+            <article class="card">
+              <img src="lt6.png" alt="Linguiniiiiiiiiiiiiiiiiii" loading="lazy" />
+              <div class="card-body">
+                <h4>Hot Linguini</h4>
+                <p>Delicious linguini pasta served with a spicy marinara sauce.</p>
+                <span class="price">₹150</span>
+              </div>
+            </article>
+            <article class="card">
+              <img src="lt8.png" alt="Neopolitan Pizza Margherita" loading="lazy" />
+              <div class="card-body">
+                <h4>Neopolitan Pizza Margherita</h4>
+                <p>Classic neopolitan pizza with fresh mozzarella, basil, and tomato sauce.</p>
+                <span class="price">₹350</span>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="menu-category">
+          <h3>Desserts</h3>
+          <div class="card-grid">
+            <article class="card">
+              <img src="lt5.png" alt="French Toast Croissants" loading="lazy" />
+
+              <div class="card-body">
+                <h4>French Toast Croissants</h4>
+                <p>Toast and croissants served with maple syrup and fresh berries.</p>
+                <span class="price">₹380</span>
+              </div>
+            </article>
+            <article class="card">
+              <img src="lt4.png" alt="Crème brûlée" loading="lazy" />
+              <div class="card-body">
+                <h4>Crème brûlée</h4>
+                <p>Homemade vanilla custard topped with caramelized sugar.</p>
+                <span class="price">₹120</span>
+              </div>
+            </article>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div>
+          <h2 id="about-title">About Us</h2>
+          <p>We’re a neighborhood restaurant focused on fresh, seasonal ingredients and warm hospitality.
+            Our menu changes with the market, and everything is cooked to order.</p>
+          <p>Open for lunch and dinner, seven days a week.</p>
+        </div>
+        <figure class="about__image">
+          <img src="https://images.pexels.com/photos/30507463/pexels-photo-30507463.jpeg?cs=srgb&fm=jpg"
+            alt="Chef plating a fine-dining dish in the kitchen" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Our Chefs -->
+    <section class="section" id="chefs" aria-labelledby="chefs-title">
+      <div class="container">
+        <h2 id="chefs-title">Our Chefs</h2>
+        <p>From the culinary capitals of <b>France</b> and <b>Italy</b>, our head chefs came to India to share their
+          craft — and to
+          spread a little <b>love</b> through every plate. Expect classic techniques, seasonal produce, and soul-warming
+          flavors.</p>
+
+        <div class="card-grid">
+          <article class="card">
+            <img src="chefs.png" alt="Ratatouille" loading="lazy" />
+            <div class="card-body">
+              <h4><b>The Spice&Spoon Alchemists</b></h4>
+              <p>Our diverse Franco-Italian team brings a wealth of culinary expertise and creativity to every dish in
+                Bangalore. We hope you enjoy your food just as much as we enjoyed making it.</p>
+            </div>
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div>
+          <h2 id="contact-title">Contact</h2>
+          <ul class="contact-list">
+            <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <span>12 Church Street, Bengaluru</span>
+            </li>
+            <li><i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <a href="tel:+910000000000">+91 00000 00000</a>
+            </li>
+            <li><i class="fa-solid fa-clock" aria-hidden="true"></i>
+              <span>Mon–Sun: 12:00 PM – 11:00 PM</span>
+            </li>
+          </ul>
+        </div>
+        <form class="newsletter" action="#" method="post">
+          <label for="email">Join our newsletter</label>
+          <div class="newsletter__row">
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            <button class="btn" type="submit">Subscribe</button>
+          </div>
+          <small>No spam. Unsubscribe anytime.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <p>&copy; <span id="year"></span> Spice &amp; Spoon</p>
+      <div class="social">
+        <a aria-label="Instagram" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a aria-label="Swiggy" href="https://swiggy.com"><i class="fa-brands fa-swiggy"></i></a>
+        <a aria-label="Zomato" href="https://zomato.com"><i class="fa-brands fa-zomato"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
